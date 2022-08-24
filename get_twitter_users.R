@@ -1,7 +1,7 @@
 # Search and Collect Twitter User Data
 
 user_id <- get_user_id(
-  usernames = "edhogmanay", # string containing one user id or a vector of user ids
+  usernames = "edhogmanay", # character vector containing screen names to be queried
   bearer_token = get_bearer(),
 )
 
