@@ -28,7 +28,7 @@ following <- get_user_following(
 
 tweetsblm <- get_all_tweets(
   query = "BLM",
-  users = c(“CNN”, “FoxNews”),
+  users = c("CNN", "FoxNews"),
   start_tweets = "2016-01-01T00:00:00Z",
   end_tweets = "2020-01-05T00:00:00Z",
   bearer_token = get_bearer(),
